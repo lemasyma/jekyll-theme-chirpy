@@ -49,16 +49,16 @@ social:
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
 
-google_site_verification: mErcVOJcxNzULHvQ99qSclI_DTX0zANqgpsd3jGhkfs # change to your verification string
+google_site_verification: s # change to your verification string
 
 # ↑ --------------------------
 
 
 google_analytics:
-  id: 'G-PVWXSNG5J8'              # fill in your Google Analytics ID
+  id: ''              # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
-    proxy_endpoint: https://cours-v2.ew.r.appspot.com/query?id=agplfmNvdXJzLXYychULEghBcGlRdWVyeRiAgICYpteACgw  # fill in the Google Analytics superProxy endpoint of Google App Engine
+    proxy_endpoint:  # fill in the Google Analytics superProxy endpoint of Google App Engine
     cache_path:       # the local PV cache data, friendly to visitors from GFW region
 
 # Prefer color scheme setting.

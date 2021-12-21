@@ -41,7 +41,10 @@
         inlineMath: [ ['$','$'], ["\\(","\\)"] ],
         displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
         processEscapes: true
-      }
+      },
+      CommonHTML: { linebreaks: { automatic: true } },
+      "HTML-CSS": { linebreaks: { automatic: true } },
+      SVG: { linebreaks: { automatic: true } }
     });
     MathJax.Hub.Register.StartupHook("TeX AMSmath Ready", function () {
       MathJax.InputJax.TeX.Stack.Item.AMSarray.Augment({
